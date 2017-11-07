@@ -35,3 +35,13 @@ p {
 .potomek p {
     font-size: 20px;
 }
+
+/*selektor bezposredniego rodzenstwa (znak +) lapie pierwsze wystapienie selektora na tym samym poziomie zagniezdzenia */
+.bezposrednie-rodzenstwo h2 + p {
+    color: violet;
+}
+
+/*selektor rodzenstwa (znak ~) zlapie WSZYSTKIE WYSTAPIENIA selektora na TYM SAMYM poziomie zagniezdzenia */
+.bezposrednie-rodzenstwo h2 ~ p {
+    color: red;
+}
