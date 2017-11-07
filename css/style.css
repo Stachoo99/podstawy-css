@@ -1,0 +1,37 @@
+/* selektor uniwersalny (*) lapie wszystkie elementy na stronie */
+* {
+    font-size: 22px;
+}
+
+/* selektor znacznika, lapie wszystkie okreslone znaczniki na stronie  */
+
+p {
+    font-size: 16px;
+}
+
+/*selektor indentyfikatora (#id) lapie element o okreslonym atrybucie id */
+#universal {
+    background-color: grey;
+}
+
+/*selektor klasy lapie elementy o okreslonym atrybucie class */
+.class-selector {
+    background-color: beige;
+}
+
+/*mozemy laczyc selektor identyfikatora z selektorem klasy */
+#universal.blue {
+    background-color: blue;
+}
+
+/*selektor bezposredniego potomka lapie elementy zagniezdzone BEZPOSREDNIO (ze znakiem >) w elemencie */
+.potomek > p {
+    font-size: 30px;
+    text-align: center;
+}
+
+/*selektor potomka (ze spacja) lapie wszystkie zagniezdzone elementy */
+
+.potomek p {
+    font-size: 20px;
+}
