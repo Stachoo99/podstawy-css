@@ -45,3 +45,23 @@ p {
 .bezposrednie-rodzenstwo h2 ~ p {
     color: red;
 }
+
+/*pozycjonowanie elementow w css */
+
+#pozycjonowanie {
+    height: 400px;
+    background-color: green;
+}
+
+#pozycjonowanie .red {
+    background-color: red;
+}
+
+#pozycjonowanie .blue {
+    background-color: blue;
+}
+
+#pozycjonowanie .inner p {
+    margin: 0;
+    color: white;
+}
