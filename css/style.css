@@ -45,7 +45,7 @@ p {
     color: violet;
 }
 
-/* selektor rodzenstwa (znak ~) zlapie WSZYSTKIE WYSTAPIENIA selektora na TYM SAMYM poziomie zagniezdzenia */
+/* selektor rodzenstwa (znak ~) zlapie WSZYSTKIE ELEMENTY WYSTAPIENIA selektora na TYM SAMYM poziomie zagniezdzenia */
 .bezposrednie-rodzenstwo h2 ~ p {
     color: red;
 }
